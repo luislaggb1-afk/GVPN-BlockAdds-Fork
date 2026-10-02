@@ -1,2 +1,0 @@
-- Fixed splash screen in dark mode
-- Added community in settings

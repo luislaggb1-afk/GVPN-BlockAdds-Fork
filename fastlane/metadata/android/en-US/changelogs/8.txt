@@ -1,3 +1,0 @@
-- Added new app widget
-- Added new app shortcut
-- Fixed bug show onboarding screen even user has already seen it

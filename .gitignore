@@ -1,40 +1,30 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Signing & secrets
-key.properties
-*.jks
-*.keystore
-fastlane/play-store-key.json
+node_modules
+dist
+dist-ssr
+*.local
+dev-dist
 
-# Fastlane
-fastlane/report.xml
-fastlane/README.md
-app/release/app-release.aab
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
 .idea
-keystore.txt
-play-store-key.json
-.kotlin
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# Bundled filter lists – committed to repo for reproducible builds
-# Run ./scripts/bundle_filters.sh before tagging a release to update
-
-# Sentry Config File
-sentry.properties
-.gopath
-.ruby-lsp
-adguard.apk
-adguard
+# Environment
+.env
+.env.*
+!.env.example

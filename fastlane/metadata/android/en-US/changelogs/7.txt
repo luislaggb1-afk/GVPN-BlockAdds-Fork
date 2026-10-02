@@ -1,2 +1,0 @@
-- Remove app widget
-- Add share and rate app

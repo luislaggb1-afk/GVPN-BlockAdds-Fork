@@ -1,2 +1,0 @@
-- Enhance background dialog and popup menu
-- Remove update checker

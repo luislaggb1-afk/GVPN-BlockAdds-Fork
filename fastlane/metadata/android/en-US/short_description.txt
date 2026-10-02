@@ -1,1 +1,0 @@
-Block ads & trackers system-wide. Firewall, SafeSearch, profiles

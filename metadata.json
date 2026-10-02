@@ -1,5 +1,5 @@
 {
-  "name": "BlockAds - System-Wide Ad & Tracker Blocker",
+  "name": "GVPN - Bloqueador de Anuncios y VPN Seguro",
   "description": "Modern, open-source ad blocker with DNS filtering, HTTPS cosmetic rules, custom blocklists, WireGuard integration, and firewall protection.",
   "capabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
