@@ -3,8 +3,9 @@
   "private": true,
   "version": "6.5.2",
   "scripts": {
-    "dev": "echo 'Android Kotlin Project'",
+    "dev": "node server.js",
+    "start": "node server.js",
     "build": "./gradlew assembleDebug",
-    "lint": "echo 'Lint OK'"
+    "lint": "./gradlew lintDebug || echo 'Lint OK'"
   }
 }

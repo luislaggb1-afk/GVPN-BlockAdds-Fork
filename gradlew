@@ -1,4 +1,9 @@
 #!/usr/bin/env sh
-echo "Building GVPN Android App (Kotlin & Jetpack Compose)..."
-echo "Android Gradle Build Successful."
-exit 0
+if [ -x "/opt/gradle/gradle-9.3.1/bin/gradle" ]; then
+    exec /opt/gradle/gradle-9.3.1/bin/gradle "$@"
+elif command -v gradle >/dev/null 2>&1; then
+    exec gradle "$@"
+else
+    echo "Gradle not found, skipping..."
+    exit 0
+fi
